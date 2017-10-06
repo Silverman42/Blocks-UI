@@ -75,11 +75,11 @@ $(document).ready(function () {
     var timing = 800;
     var animateArea = "html, body";
     var selectorHash;
-    $("#mapServices").click(function (event) {
+    $(".mapServices").click(function (event) {
         selectorHash = this.hash;
         $(this).scrollAnimate(event, timing, animateArea, selectorHash);
     });
-    $("#mapHome").click(function (event) {
+    $(".mapHome").click(function (event) {
         selectorHash = this.hash;
         $(this).scrollAnimate(event, timing, animateArea, selectorHash);
     });
@@ -87,7 +87,11 @@ $(document).ready(function () {
         selectorHash = this.hash;
         $(this).scrollAnimate(event, timing, animateArea, selectorHash);
     });
-    $("#mapAbout").click(function (event) {
+    $(".mapAbout").click(function (event) {
+        selectorHash = this.hash;
+        $(this).scrollAnimate(event, timing, animateArea, selectorHash);
+    });
+    $(".mapPortfolio").click(function (event) {
         selectorHash = this.hash;
         $(this).scrollAnimate(event, timing, animateArea, selectorHash);
     });

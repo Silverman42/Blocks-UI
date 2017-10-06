@@ -65,7 +65,7 @@
                     <li><a href="../index.html" id="mapHome"> <span class="">Home</span></a></li>
                     <li><a href="../index.html#services"> <span>Services</span></a></li>
                     <li><a href="#contact" class="mapContact"> <span>Contact</span></a></li>
-                    <li><a href="#about" id="mapAbout"> <span >About</span></a></li>
+                    <li><a href="#about" class="mapAbout"> <span >About</span></a></li>
                     <li><a href="../portfolio/index.html"> <span>Portfolio</span></a></li>
                 </ul>
             </div>
@@ -74,7 +74,7 @@
     </nav>
     <div class="container-fluid">
         <!--row 1(Cover)-->
-        <div class="row row-no-padding background-custom one" id="home">
+        <div class="row row-no-padding background-custom one ">
             <div class="col-sm-10 col-sm-offset-1 h-height align-left">
                 <p class="f-space-v-2 f-xbig padding-sides">About Us</p>
             </div>
@@ -220,29 +220,25 @@
             </div>
         </div>
         <!--row 5(Footer)-->
-        <div class="row row-no-padding background-2 padding-sides">
+        <footer class="row row-no-padding background-2 padding-sides">
             <div class="col-sm-10 col-sm-offset-1 bordered">
-                <div class="col-sm-4 bordered">
-                    <div class="sub-container">
-                        <div class="col-sm-12 justify padding-sides">
-                            <span class="f-med">Developed By</span>
-                        </div>
-                        <div class="col-sm-12 justify padding-sides">
-
-                        </div>
+                <div class="col-sm-5 bordered">
+                    <div class="col-xs-2 col-sm-3 padding-sides ">
+                        <img src="../img/FibrewareWebSol.png" class="img-responsive row-centered" alt="Fibreware Web Solutions" />
                     </div>
+                    <div class="col-xs-10 col-sm-9"><p>Powered by</p><p class="f-med">Fibreware Web Solutions</p><p class="quick-button"><a href="http://www.fibreware.xyz" target="_blank">[ www.fibreware.xyz ]</a></p></div>
                 </div>
-                <div class="col-sm-4 bordered">
+                <div class="col-xs-12 col-sm-4 bordered">
                     <div class="sub-container">
                         <div class="col-sm-12 justify padding-sides">
                             <ul>
                                 <li><span class="f-med">Quick Menu</span></li>
-                                <li class="quick-button"><a href="#">Home</a> . <a href="#">Services</a> . <a href="#"> About</a> . <a href="#">Contact</a>                                    . <a href="#">Portfolio</a> . <a href="#">Blog</a></li>
+                                <li class="quick-button"><a href="../index.html">Home</a> . <a href="../index.html#services">Services</a> . <a class="mapAbout" href="#about"> About</a> . <a class="mapContact" href="#contact">Contact</a>  . <a class="mapPortfolio" href="../portfolio/index.html">Portfolio</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 bordered">
+                <div class="col-xs-12 col-sm-3 bordered">
                     <div class="sub-container">
                         <div class="col-sm-12 justify padding-sides">
                             Spartiakrux BIM + Project &reg; 2017
@@ -250,7 +246,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
     <!-- jQuery -->
     <script src="../js/jquery-2.1.4.min.js"></script>
